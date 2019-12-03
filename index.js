@@ -1,4 +1,4 @@
-var rabbitmqUri = "amqp://notification-mq";
+var rabbitmqUri = process.env.MQ_URL || "amqp://notification-mq";
 var smtpUri = process.env.MAIL_URL;
 var amqp = require("amqplib/callback_api");
 var nodemailer = require("nodemailer");

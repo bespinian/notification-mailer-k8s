@@ -1,6 +1,6 @@
 {
   "name": "notification-mailer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CF sample application mailer",
   "main": "index.js",
   "scripts": {
