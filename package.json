@@ -19,7 +19,7 @@
   "homepage": "https://github.com/mkretz/notification-mailer#readme",
   "dependencies": {
     "amqplib": "^0.5.2",
-    "nodemailer": "^6.4.16"
+    "nodemailer": "^6.6.1"
   },
   "engines": {
     "node": "6.14.3",
